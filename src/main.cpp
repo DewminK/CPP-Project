@@ -7,7 +7,7 @@
 #include <map>
 #include <fstream>       
 #include <stdexcept>    
-#include <nlohmann/json.hpp> 
+#include <nlohmann/json.hpp>
 
 Config loadConfig(const std::string& filename) {
     std::ifstream configFile(filename);
